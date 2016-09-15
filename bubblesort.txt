@@ -1,18 +1,8 @@
 Algorítimo para ordenar 5 cartas:
-Passo 1 - Vire as cartas de possição 1 e de posição 2;
-Passo 2 - Se a carta de posição 1 for maior que a carta de posição 2, troque-as
-de lugar;
-Passo 3 - Desvire as cartas de posição 1 e 2;
-Passo 4 - Vire as cartas de possição 2 e de posição 3;
-Passo 5 - Se a carta de posição 2 for maior que a carta de posição 3, troque-as
-de lugar;
-Passo 6 - Desvire as cartas de posição 2 e 3;
-Passo 7 - Vire as cartas de possição 3 e de posição 4;
-Passo 8 - Se a carta de posição 3 for maior que a carta de posição 4, troque-as
-de lugar;
-Passo 9 - Desvire as cartas de posição 3 e 4;
-Passo 10 - Vire as cartas de possição 4 e de posição 5;
-Passo 11 - Se a carta de posição 4 for maior que a carta de posição 5, troque-as
-de lugar;
-Passo 12 - Desvire as cartas de posição 4 e 5;
-Passo 13 - Repita o passo 1 daqui para frente, até não houver trocas.
+N cartas numeradas de 1 a N
+Para a carta_final indo de N-1 até 2, de -1 em -1:
+	Para a carta_i indo de 1 até a carta_final, de 1 em 1:
+		Desvirar a carta_i e a carta_i + 1;
+		Se o valor da carta_i > valor da carta_i + 1:
+			Troque-as de lugar;
+		Virar a carta_i e a carta_i + 1
