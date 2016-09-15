@@ -1,0 +1,8 @@
+N cartas, números de 1 a N
+
+Para a primeira_carta, indo de 1 até N, de 1 em 1:
+	Para a carta_i, indo de primeira_carta + 1 até N, de 1 em 1:
+		Desvirar a primeira_carta e a primeira_carta + 1;
+		Se o valor da primeira_carta > primeira_carta + 1
+			Troque-as de lugar
+		Vire a primeira_carta e a primeira_carta + 1
