@@ -1,0 +1,6 @@
+Algorítimo para ordenar 5 cartas:
+Passo 1 - Com as cartas viradas para baixo, escola a primeira e a segunda carta(ordem das cartas: esquerda para a direita), troque-as se necessário.
+Passo 2 - Vire a segunda e terceira carta, troque-as se necessário.
+Passo 3 - Vire a terceira e a quarta carta, troque-as se necesário.
+Passo 4 - Vire a quarta e a quinta carta, troque-as se necessário.
+Passo 5 - Repita o passo 1 em diante, até que não se tenha mais trocas, o algorítima termina pois as cartas estão em ordem crescente.
